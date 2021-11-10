@@ -1,0 +1,132 @@
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .divsecond img {
+        width: 150px;
+    }
+
+    .troisdiv1 {
+        font-size: 0.9vw;
+    }
+
+    .sectionfoot {
+        font-size: 60%;
+    }
+
+    i {
+        font-size: 1vw;
+    }
+}
+
+
+/* mediaqueries tablette */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .divsecond img {
+        width: 120px;
+    }
+
+    .troisdiv1 {
+        font-size: 65%;
+        width: 70%;
+    }
+
+    .contactinput {
+        width: 70%;
+    }
+
+    .divfoot {
+        font-size: 50%;
+    }
+}
+
+
+/* mediaqueries mobile */
+@media (min-width: 320px) and (max-width: 767px) {
+    .navbar h1 {
+        display: none;
+    }
+
+    .navbar ul {
+        justify-content: center;
+        margin-left: -20%;
+    }
+
+    .firstsection {
+        height: 60vw;
+        font-size: 2.5vw;
+    }
+
+    .divFsection {
+        width: 60%;
+    }
+
+    .divFsection h1 {
+        font-size: 5vw;
+    }
+
+    .divFsection img {
+        width: 50%;
+    }
+
+    #portfolio h2 {
+        font-size: 5vw;
+    }
+
+    .divsecond {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .divsecond img {
+        width: 200px;
+    }
+
+    #about {
+        height: 65vw;
+    }
+
+    #about h2 {
+        font-size: 5vw;
+        font-weight: 900;
+        text-align: center;
+        padding-top: 3%;
+    }
+
+    .troisdiv {
+        width: 80%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .troisdiv1 {
+        width: 100%;
+        text-align: justify;
+        font-size: 3vw;
+    }
+
+    .contactinput {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .contactinput button {
+        margin: 0 auto;
+    }
+
+    .sectionfoot {
+        height: 80vw;
+    }
+
+    .divfoot {
+        flex-direction: column;
+        font-size: 50%;
+        margin-left: 20%;
+        height: 70vw;
+    }
+
+    .copyfooter {
+        height: 7vw;
+    }
+
+    .copy {
+        font-size: 1.5vw;
+    }
+}
